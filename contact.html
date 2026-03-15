@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Torabh Jatav</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Decor -->
+    <div class="bg-shape bg-shape-1"></div>
+    <div class="bg-shape bg-shape-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Torabh<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Contact Section -->
+        <section id="contact" class="contact section page-section">
+            <div class="container">
+                <div class="contact-card glass-card fade-up active">
+                    <div class="contact-info">
+                        <h2>Let's Drive Growth Together</h2>
+                        <p>Looking for a Techno-Functional Engineer, SQL Developer, or an AI-driven Web Developer? Let's connect and discuss how I can contribute to your next project.</p>
+                        <br>
+                        <p><i class="fas fa-phone"></i> +91 7047636934</p>
+                        <p><i class="fas fa-envelope"></i> tourabhjatav7047@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Itarsi, Madhya Pradesh</p>
+                        
+                        <ul class="social-links" style="margin-top: 2rem;">
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="mailto:tourabhjatav7047@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <form class="contact-form" onsubmit="event.preventDefault();">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="fixed-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Torabh Jatav. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
