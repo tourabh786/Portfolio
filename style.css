@@ -543,6 +543,7 @@ ul {
 .gradient-bg-1 { background: linear-gradient(135deg, #10b981, #3b82f6); opacity: 0.8; }
 .gradient-bg-2 { background: linear-gradient(135deg, #f59e0b, #ec4899); opacity: 0.8; }
 .gradient-bg-3 { background: linear-gradient(135deg, #8b5cf6, #3b82f6); opacity: 0.8; }
+.gradient-bg-4 { background: linear-gradient(135deg, #6366f1, #14b8a6); opacity: 0.8; }
 
 .project-content {
     padding: 2rem;
