@@ -4,65 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Torabh Jatav portfolio: SQL engineering, core banking systems, and AI-powered web development.">
     <title>Torabh Jatav | Portfolio</title>
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
-        rel="stylesheet">
-    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Styles -->
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <!-- Background Decor -->
-    <div class="bg-shape bg-shape-1"></div>
-    <div class="bg-shape bg-shape-2"></div>
+<body class="page page-home">
+    <div class="page-glow glow-1"></div>
+    <div class="page-glow glow-2"></div>
+        <div class="page-grain"></div>
+    <div id="preloader" class="preloader" aria-hidden="true">
+        <div class="spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="text">
+            <p>On your way...</p>
+        </div>
+    </div>
+    <div id="cursor-dot" class="cursor-dot" aria-hidden="true"></div>
+    <div id="cursor-ring" class="cursor-ring" aria-hidden="true"></div>
 
-    <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <a href="index.html" class="logo">Torabh<span> Jatav</span></a>
-            <ul class="nav-links">
+            <a href="index.html" class="logo">Torabh<span>Jatav</span></a>
+            <button class="hamburger" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="skills.html">Skills</a></li>
                 <li><a href="projects.html">Work</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <i class="fas fa-bars"></i>
-            </div>
         </div>
     </nav>
 
     <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero section">
-            <div class="container hero-container">
-                <div class="hero-content">
-                    <span class="badge fade-up">SQL Developer & AI Web Developer</span>
+        <section class="hero section" id="home">
+            <div class="hero-backdrop"></div>
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow fade-up">SQL Developer | Banking Systems | AI Web Builder</p>
                     <h1 class="fade-up stagger-1">
-                        Hi, I'm <br>
-                        <span class="gradient-text type-text">Torabh Jatav</span>
+                        Building trusted <span class="type-text">data systems</span> and high-impact digital experiences.
                     </h1>
-                    <p class="fade-up stagger-2">
-                        I specialize in MS SQL Database Engineering, Core Banking Systems, and AI-Assisted Website
-                        Development.
+                    <p class="lead fade-up stagger-2">
+                        Technical Support Engineer at Trust Fintech Limited with 3+ years in Core Banking Systems,
+                        digital payments, API integrations, and SQL-driven operations.
                     </p>
-                    <div class="hero-btns fade-up stagger-3">
-                        <a href="projects.html" class="btn btn-primary">
-                            Explore Work <i class="fas fa-arrow-right"></i>
-                        </a>
-                        <a href="contact.html" class="btn btn-secondary">Let's Talk</a>
+                    <div class="hero-actions fade-up stagger-3">
+                        <a href="projects.html" class="btn btn-primary">View Work <i class="fas fa-arrow-right"></i></a>
+                        <a href="contact.html" class="btn btn-ghost">Hire Me</a>
+                    </div>
+                    <div class="home-live-links fade-up stagger-3">
+                        <a href="https://xyphora-ai.vercel.app/#home" target="_blank" rel="noopener" class="text-link">Xyphora AI Live <i class="fas fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://tech-secure.vercel.app/services" target="_blank" rel="noopener" class="text-link">Tech Secure Live <i class="fas fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="hero-artwork fade-in">
-                    <div class="glass-orb">
-                        <div class="inner-orb"></div>
+                <div class="hero-visual fade-in">
+                    <div class="orbit-ring ring-1"></div>
+                    <div class="orbit-ring ring-2"></div>
+                    <div class="hero-core">
+                        <p>3+ Years</p>
+                        <h2>Techno-Functional Engineer</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section highlights">
+            <div class="container">
+                <div class="highlight-strip reveal">
+                    <div class="highlight-item">
+                        <span>Current Role</span>
+                        <strong>Technical Support Engineer (CBS)</strong>
+                    </div>
+                    <div class="highlight-item">
+                        <span>Organization</span>
+                        <strong>Trust Fintech Limited, Nagpur</strong>
+                    </div>
+                    <div class="highlight-item">
+                        <span>Tenure</span>
+                        <strong>July 2022 - Present</strong>
+                    </div>
+                    <div class="highlight-item">
+                        <span>Payments Stack</span>
+                        <strong>UPI, IMPS, NEFT/RTGS, ATM</strong>
                     </div>
                 </div>
             </div>
@@ -71,12 +108,13 @@
 
     <footer>
         <div class="container">
-            <p>&copy; <span id="year"></span> Torabh Jatav. All rights reserved.</p>
+            <p>&copy; <span id="year"></span> Torabh Jatav. </p>
         </div>
     </footer>
 
-    <!-- Scripts -->
     <script src="script.js"></script>
 </body>
 
 </html>
+
+
